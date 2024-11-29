@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/meuestilo.css">
+    <script src="js/bootstrap.js" defer></script>
+     <script src="js/lersite.js" defer></script>
+    
+    <title>Bruno Lanches</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-cor-1" id="navbar">
+        <div class="container">
+            <a href="../Frontend/index.html" class="navbar-brand cor-clara">Bruno Lanches</a>
+        <!--      <img src="img/brunolanches.jpeg"  -->
+            <div id="navbar-itens">
+                   <!--  <form class="d-flex" id="form-pesquisa">
+                        <i class="bi bi-search cor-clara"></i>
+                        <input type="search" class="form-control ms-3" name="search" id="search" placeholder="Busque aqui...">
+                        <button class="btn bg-cor-2" type="submit">Pesquisar!</button>
+                    </form> -->
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="https://www.instagram.com/lanches.bruno/" class="nav-link cor-clara">
+                                Instagram
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.facebook.com/profile.php?id=100071031873172" class="nav-link cor-clara">
+                                Facebook
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.tiktok.com/@.bruno.lanches?_t=8nTTgtISUsQ&_r=1" class="nav-link cor-clara">
+                                TikTok
+                                <i class="bi bi-tiktok"></i>
+                            </a>
+                        </li>
+
+        <button id="btnLer" onclick="lerSite()">
+         Ler Site <i class="bi bi-ear-fill"></i>
+        </button>
+
+       
+
+                    </ul>
+                </div>
+            </div>
+        </nav>    
+     <!-- FIM DA NAVBAR SUPERIOR -->
+
+     <!-- INICIO NAVBAR INFERIOR-->
+     
+    <nav class="navbar navbar-expand-lg bg-cor-2 p-2" id="container-navbar-inferior">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"data-bs-target="#navbar-inferior" aria-controls="navbar-inferior" arial-expand="false" aria-label="Botão Menu Hamburguer">
+                <i class="bi bi-list"></i>
+            </button>
+            <ul class="navbar-nav mb-2 mb-lg-0 collapse navbar-collapse" id="navbar-inferior">
+                <li class="navbar-item">
+                    <a href="./template/sobre.html" class="nav-link">
+                        Sobre Nós
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>    
+                <!-- FIM DA NAVBAR INFERIOR -->
+
+                <!-- BANERS -->
+    <!-- 
+            <div class="carousel slide" id="slider" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/lanche.jpeg" alt="" class="d-block w-100">
+                    <div class="carousel-caption bg-cor-1">
+                        <h3>Hamburguers de churasco com a melhor qualidade</h3>
+                        <p>Para qualquer Ocasião</p>
+                    </div>
+                </div>
+
+                    <div class="carousel-item">
+                        <img src="img/Kids.jpeg" alt="" class="d-block w-100">
+                        <div class="carousel-caption bg-cor-1">
+                            <h3>Combo kids + Brinquedos</h3>
+                            <p>Para as Crianças</p>
+                        </div>
+                    </div>
+                    
+                        <div class="carousel-item">
+                            <img src="img/" alt="" class="d-block w-100">
+                            <div class="carousel-caption bg-cor-1">
+                                <h3>Panquecas Recheadas </h3>
+                                <p>Para te Satisfazer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button"data-bs-target="#slider" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"
+                        aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button"data-bs-target="#slider" data-bs-slide="prev">
+                        <span class="carousel-control-next-icon"
+                        aria-hidden="true"></span>
+                        <span class="visually-hidden">Próximo</span>
+                    </button>
+                </div>               
+            </div> -->
+<!-- FIM DOS BANERS -->
+
+<!-- INICIO MINI-BANNER -->
+    <div class="container" id="mini-banners-container">
+        <div class="row justify-content-around">
+            <div class="col-12 bg-cor-1" id="mini-banner-1">
+                <h2>Lanches</h2>
+                <img src="img/lanche.png" alt="Prato 1">
+                <a href="./template/compreja.html">Veja as opções</a> 
+            </div>
+
+            <div class="col-12 bg-cor-1" id="mini-banner-2">
+                <h2>Bebidas</h2>
+                <img src="img/bebidas.png" alt="Prato 2">
+                <a href="./template/compreja2.html">Veja as opções</a>
+            </div>      
+
+
+            <div class="col-12 bg-cor-1" id="mini-banner-3">
+                <h2>Porções</h2>
+                <img src="img/batata.png" alt="Prato 3">
+                <a href="./template/compreja3.html">Veja as opções</a>
+            </div>
+
+            <div class="col-12 bg-cor-1" id="mini-banner-1">
+                <h2>Panquecas</h2>
+                    <img src="img/panqueca.jpeg" alt="Prato 1">
+                    <a href="./template/compreja4.html">Veja as opções</a>
+            </div>
+
+            <div class="col-12 bg-cor-1" id="mini-banner-2">
+                <h2>Omeletes</h2>
+                <img src="img/omelete.jpeg" alt="Prato 2">
+                <a href="./template/compreja5.html">Veja as opções</a>
+            </div>
+
+            <div class="col-12 bg-cor-1" id="mini-banner-3">
+                <h2>Combo Kids</h2>
+                <img src="img/combokids.png" alt="Prato 3">
+                <a href="./template/compreja6.html">Veja as opções</a>
+            </div>
+    </div>
+    </div>
+
+     <!-- Seção de Pedido -->
+<section id="pedidos" class="py-5">
+    <div class="container">
+        <h2 class="text-center">Faça seu Pedido</h2>
+        <form id="pedidoForm" onsubmit="enviarPedido(event)">
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome Completo</label>
+                <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+            </div>
+            <div class="mb-3">
+                <label for="telefone" class="form-label">Telefone</label>
+                <input type="text" class="form-control" id="telefone" placeholder="Seu telefone">
+            </div>
+            <div class="mb-3">
+                <label for="endereco" class="form-label">Endereço de Entrega</label>
+                <input type="text" class="form-control" id="endereco" placeholder="Rua, número, bairro">
+            </div>
+            <head>
+                <style>
+                    .form-label {
+                        font-size: 22px;
+                    }
+                    .form-control {
+                        font-size: 22px;
+                    }
+                </style>
+            </head>
+            <body>
+                <div class="mb-3">
+                    <label for="descrição" class="form-label">Alguma descrição sobre o pedido</label>
+                    <input type="text" class="form-control" id="descrição" placeholder="Descrição do seu pedido">
+                </div>
+            </body>
+            
+
+            <!-- Seção de Lanches -->
+            <div id="lanchesContainer" class="mb-3">
+                <label class="form-label">Lanches</label>
+                <div class="row">
+                    <div class="col-md-6">
+                        <select class="form-select" id="lanches">
+                            <option selected disabled>Selecione um lanche</option>
+                            <option value="Vegetariano">Vegetariano</option>
+                            <option value="X Burguer">X Burguer</option>
+                            <option value="X Salada">X Salada</option>
+                            <option value="X Saladão">X Saladão</option>
+                            <option value="X Egg">X Egg</option>
+                            <option value="X Bacon">X Bacon</option>
+                            <option value="X Calabresa">X Calabresa</option>
+                            <option value="Americano">Americano</option>
+                            <option value="Misto Quente">Misto Quente</option>
+                            <option value="X Tudo">X Tudo</option>
+                            <option value="X Frango">X Frango</option>
+                            <option value="X Frango Tudo">X Frango Tudo</option>
+                            <option value="Combo Kids">Combo Kids</option>
+                            <option value="Churrasco Contra Filé">Churrasco Contra Filé</option>
+                            <option value="Churrasco de Lombo">Churrasco de Lombo</option>
+                            <option value="Contra Tudo">Contra Tudo</option>
+                            <option value="Lombo Tudo">Lombo Tudo</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <input type="number" class="form-control" id="quantidadeLanche" placeholder="Quantidade" min="1">
+                    </div>
+                    <div class="col-md-3">
+                        <!-- Botão de Adicionar Lanche -->
+                        <button type="button" class="btn btn-success" onclick="adicionarLanche()">Adicionar</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="listaLanches" class="mb-3">
+                <h5>Lanches Selecionados:</h5>
+                <ul id="lanchesSelecionados" class="list-group"></ul>
+            </div>
+
+            <!-- Seção de Porções -->
+            <div id="porcoesContainer" class="mb-3">
+                <label class="form-label">Porções</label>
+                <div class="row">
+                    <div class="col-md-6">
+                        <select class="form-select" id="porcoes">
+                            <option selected disabled>Selecione uma porção</option>
+                            <option value="Filé de Frango, Tomate e Cebola – 500g">Filé de Frango, Tomate e Cebola – 500g</option>
+                            <option value="Lombo, Tomate e Cebola – 500g">Lombo, Tomate e Cebola – 500g</option>
+                            <option value="Calabresa, Tomate e Cebola – 500g">Calabresa, Tomate e Cebola – 500g</option>
+                            <option value="Batata Frita c/ Bacon, Cheddar, Queijo e Orégano">Batata Frita c/ Bacon, Cheddar, Queijo e Orégano</option>
+                            <option value="Contra Filé, Tomate e Cebola – 500g">Contra Filé, Tomate e Cebola – 500g</option>
+                            <option value="Batata Frita 500g">Batata Frita 500g</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <input type="number" class="form-control" id="quantidadePorcoes" placeholder="Quantidade" min="1">
+                    </div>
+                    <div class="col-md-3">
+                        <button type="button" class="btn btn-success" onclick="adicionarPorcao()">Adicionar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="listaPorcoes" class="mb-3">
+                <h5>Porções Selecionadas:</h5>
+                <ul id="porcoesSelecionadas" class="list-group"></ul>
+            </div>
+
+            <!-- Seção de Panquecas -->
+            <div id="panquecasContainer" class="mb-3">
+                <label class="form-label">Panquecas</label>
+                <div class="row">
+                    <div class="col-md-6">
+                        <select class="form-select" id="panquecas">
+                            <option selected disabled>Selecione uma panqueca</option>
+                            <option value="Calabresa com Bacon">Calabresa com Bacon</option>
+                            <option value="Carne Moída">Carne Moída</option>
+                            <option value="Frango e Catupiry">Frango e Catupiry</option>
+                            <option value="Panqueca Brócolis com Bacon">Panqueca Brócolis com Bacon</option>
+                            <option value="Panqueca de 4 Queijos">Panqueca de 4 Queijos</option>
+                            <option value="Panqueca de Atum">Panqueca de Atum</option>
+                            <option value="Presunto, Queijo e Tomate">Presunto, Queijo e Tomate</option>
+                            <option value="Strogonoff">Strogonoff</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <input type="number" class="form-control" id="quantidadePanqueca" placeholder="Quantidade" min="1">
+                    </div>
+                    <div class="col-md-3">
+                        <button type="button" class="btn btn-success" onclick="adicionarPanqueca()">Adicionar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="listaPanquecas" class="mb-3">
+                <h5>Panquecas Selecionadas:</h5>
+                <ul id="panquecasSelecionadas" class="list-group"></ul>
+            </div>
+
+            <!-- Seção de Omeletes -->
+            <div id="omeletesContainer" class="mb-3">
+                <label class="form-label">Omeletes</label>
+                <div class="row">
+                    <div class="col-md-6">
+                        <select class="form-select" id="omeletes">
+                            <option selected disabled>Selecione uma omelete</option>
+                            <option value="Omelete de Queijo">Omelete de Queijo</option>
+                            <option value="Omelete de Presunto e Queijo">Omelete de Presunto e Queijo</option>
+                            <option value="Omelete de Frango">Omelete de Frango</option>
+                            <option value="Omelete de Legumes">Omelete de Legumes</option>
+                            <option value="Omelete de Bacon">Omelete de Bacon</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <input type="number" class="form-control" id="quantidadeOmelete" placeholder="Quantidade" min="1">
+                    </div>
+                    <div class="col-md-3">
+                        <button type="button" class="btn btn-success" onclick="adicionarOmelete()">Adicionar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="listaOmeletes" class="mb-3">
+                <h5>Omeletes Selecionadas:</h5>
+                <ul id="omeletesSelecionados" class="list-group"></ul>
+            </div>
+
+            <!-- Seção de Bebidas -->
+            <div id="bebidasContainer" class="mb-3">
+                <label class="form-label">Bebidas</label>
+                <div class="row">
+                    <div class="col-md-6">
+                        <select class="form-select" id="bebidas" onchange="mostrarCampoBebida()">
+                            <option selected disabled>Selecione uma bebida</option>
+                            <option value="Refrigerante">Refrigerante 2 Lts</option>
+                            <option value="Suco Natural">Refrigerante Lata</option>
+                            <option value="Água Mineral">Cerveja Lata</option>
+                            <option value="Suco Natural">Sucos</option>
+                            <option value="Suco Natural">Sucos 1L</option>
+                            <option value="Suco Natural">Sucos 500 ml</option>
+                            <option value="Suco Natural">Sucos Dois Sabores</option>
+                            <option value="Suco Natural">Sucos Com Leite</option>
+                            <option value="Bebida Personalizada">Sabor do Suco </option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" id="bebidaPersonalizada" placeholder="Qual Sabor" style="display:none;">
+                    </div>
+                    <div class="col-md-3">
+                        <button type="button" class="btn btn-success" onclick="adicionarBebida()">Adicionar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="listaBebidas" class="mb-3">
+                <h5>Bebidas Selecionadas:</h5>
+                <ul id="bebidasSelecionadas" class="list-group"></ul>
+            </div>
+
+            <div class="mb-3">
+                <label for="formaPagamento" class="form-label">Forma de Pagamento</label>
+                <select class="form-select" id="formaPagamento">
+                    <option selected disabled>Escolha...</option>
+                    <option value="cartao">Cartão de Crédito</option>
+                    <option value="pix">Pix</option>
+                    <option value="dinheiro">Dinheiro</option>
+                </select>
+            </div>
+
+            <!-- Botão de Enviar Pedido -->
+            <button type="button" class="btn btn-primary" onclick="enviarPedido(event)">Enviar Pedido</button>
+        </form>
+    </div>
+</section>
+
+<!-- JavaScript -->
+<script>
+    const lanchesSelecionados = [];
+    const porcoesSelecionadas = [];
+    const panquecasSelecionadas = [];
+    const omeletesSelecionados = [];
+    const bebidasSelecionadas = [];
+
+    // Função para adicionar lanche
+    function adicionarLanche() {
+        const lanche = document.getElementById("lanches").value;
+        const quantidade = document.getElementById("quantidadeLanche").value;
+
+        if (lanche && quantidade > 0) {
+            lanchesSelecionados.push({ lanche, quantidade });
+            atualizarLista("lanchesSelecionados", lanchesSelecionados);
+            document.getElementById("lanches").value = ""; // Limpa a seleção
+            document.getElementById("quantidadeLanche").value = ""; // Limpa a quantidade
+        } else {
+            alert("Por favor, selecione um lanche e uma quantidade válida.");
+        }
+    }
+
+    // Função para adicionar porção
+    function adicionarPorcao() {
+        const porcao = document.getElementById("porcoes").value;
+        const quantidade = document.getElementById("quantidadePorcoes").value;
+
+        if (porcao && quantidade > 0) {
+            porcoesSelecionadas.push({ porcao, quantidade });
+            atualizarLista("porcoesSelecionadas", porcoesSelecionadas);
+            document.getElementById("porcoes").value = ""; // Limpa a seleção
+            document.getElementById("quantidadePorcoes").value = ""; // Limpa a quantidade
+        } else {
+            alert("Por favor, selecione uma porção e uma quantidade válida.");
+        }
+    }
+
+    // Função para adicionar panqueca
+    function adicionarPanqueca() {
+        const panqueca = document.getElementById("panquecas").value;
+        const quantidade = document.getElementById("quantidadePanqueca").value;
+
+        if (panqueca && quantidade > 0) {
+            panquecasSelecionadas.push({ panqueca, quantidade });
+            atualizarLista("panquecasSelecionadas", panquecasSelecionadas);
+            document.getElementById("panquecas").value = ""; // Limpa a seleção
+            document.getElementById("quantidadePanqueca").value = ""; // Limpa a quantidade
+        } else {
+            alert("Por favor, selecione uma panqueca e uma quantidade válida.");
+        }
+    }
+
+    // Função para adicionar omelete
+    function adicionarOmelete() {
+        const omelete = document.getElementById("omeletes").value;
+        const quantidade = document.getElementById("quantidadeOmelete").value;
+
+        if (omelete && quantidade > 0) {
+            omeletesSelecionados.push({ omelete, quantidade });
+            atualizarLista("omeletesSelecionados", omeletesSelecionados);
+            document.getElementById("omeletes").value = ""; // Limpa a seleção
+            document.getElementById("quantidadeOmelete").value = ""; // Limpa a quantidade
+        } else {
+            alert("Por favor, selecione uma omelete e uma quantidade válida.");
+        }
+    }
+
+    // Função para adicionar bebida
+    function adicionarBebida() {
+    const bebida = document.getElementById("bebidas").value;
+    let bebidaFinal = bebida;
+
+    // Verifica se a opção selecionada é "Bebida Personalizada"
+    if (bebida === "Bebida Personalizada") {
+        // Se for, usa o valor digitado no campo de bebida personalizada
+        const bebidaPersonalizada = document.getElementById("bebidaPersonalizada").value;
+        if (bebidaPersonalizada) {
+            bebidaFinal = bebidaPersonalizada;
+        } else {
+            alert("Por favor, informe qual bebida personalizada.");
+            return;
+        }
+    }
+
+    const quantidade = 1; // Se você desejar, pode adicionar uma quantidade para bebidas também
+
+    if (bebidaFinal) {
+        bebidasSelecionadas.push({ bebida: bebidaFinal, quantidade });
+        atualizarLista("bebidasSelecionadas", bebidasSelecionadas);
+        document.getElementById("bebidas").value = ""; // Limpa a seleção
+        document.getElementById("bebidaPersonalizada").value = ""; // Limpa a bebida personalizada
+    } else {
+        alert("Por favor, selecione uma bebida.");
+    }
+}
+
+// Função que mostra ou esconde o campo de bebida personalizada
+function mostrarCampoBebida() {
+    const bebida = document.getElementById("bebidas").value; // Pega o valor selecionado
+    const bebidaPersonalizadaField = document.getElementById("bebidaPersonalizada"); // Campo de texto para bebida personalizada
+    
+    // Se a opção "Bebida Personalizada" for selecionada, mostramos o campo de texto
+    if (bebida === "Bebida Personalizada") {
+        bebidaPersonalizadaField.style.display = "block"; // Exibe o campo
+    } else {
+        bebidaPersonalizadaField.style.display = "none"; // Esconde o campo
+    }
+}
+
+
+    // Função para atualizar as listas na tela
+    function atualizarLista(elementId, itens) {
+        const lista = document.getElementById(elementId);
+        lista.innerHTML = ""; // Limpa a lista
+
+        itens.forEach(item => {
+            const li = document.createElement("li");
+            li.className = "list-group-item";
+            li.textContent = `${item.lanche || item.porcao || item.panqueca || item.omelete || item.bebida} - ${item.quantidade}`;
+            lista.appendChild(li);
+        });
+    }
+
+    // Função para enviar o pedido
+    function enviarPedido(event) {
+        event.preventDefault(); // Impede o envio padrão do formulário
+
+        const nome = document.getElementById("nome").value;
+        const telefone = document.getElementById("telefone").value;
+        const endereco = document.getElementById("endereco").value;
+        const descricao = document.getElementById("descrição").value; // Corrigido "descrição" para "descricao"
+        const formaPagamento = document.getElementById("formaPagamento").value;
+
+        // Formata a mensagem com os dados do pedido
+        let mensagem = `*Novo Pedido*\n`;
+        mensagem += `*Nome:* ${nome}\n`;
+        mensagem += `*Telefone:* ${telefone}\n`;
+        mensagem += `*Endereço:* ${endereco}\n`;
+        mensagem += `*Descrição:* ${descricao}\n`;
+        mensagem += `*Forma de Pagamento:* ${formaPagamento}\n`;
+
+        // Inclui as listas de produtos selecionados
+        if (lanchesSelecionados.length > 0) {
+            mensagem += `*Lanches:*\n`;
+            lanchesSelecionados.forEach(item => {
+                mensagem += `- ${item.lanche} (Quantidade: ${item.quantidade})\n`;
+            });
+        }
+
+        if (porcoesSelecionadas.length > 0) {
+            mensagem += `*Porções:*\n`;
+            porcoesSelecionadas.forEach(item => {
+                mensagem += `- ${item.porcao} (Quantidade: ${item.quantidade})\n`;
+            });
+        }
+
+        if (panquecasSelecionadas.length > 0) {
+            mensagem += `*Panquecas:*\n`;
+            panquecasSelecionadas.forEach(item => {
+                mensagem += `- ${item.panqueca} (Quantidade: ${item.quantidade})\n`;
+            });
+        }
+
+        if (omeletesSelecionados.length > 0) {
+            mensagem += `*Omeletes:*\n`;
+            omeletesSelecionados.forEach(item => {
+                mensagem += `- ${item.omelete} (Quantidade: ${item.quantidade})\n`;
+            });
+        }
+
+        if (bebidasSelecionadas.length > 0) {
+            mensagem += `*Bebidas:*\n`;
+            bebidasSelecionadas.forEach(item => {
+                mensagem += `- ${item.bebida} (Quantidade: ${item.quantidade})\n`;
+            });
+        }
+
+        // Envia a mensagem via WhatsApp
+        const numeroWhatsApp = "19992850039";
+        const whatsappUrl = `https://api.whatsapp.com/send?phone=${numeroWhatsApp}&text=${encodeURIComponent(mensagem)}`;
+        window.open(whatsappUrl, '_blank'); // Abre o WhatsApp em uma nova aba
+
+        // Limpeza do formulário após o envio
+        document.getElementById("pedidoForm").reset(); // Limpa o formulário inteiro
+        // Limpa as listas de seleção
+        lanchesSelecionados.length = 0;
+        porcoesSelecionadas.length = 0;
+        panquecasSelecionadas.length = 0;
+        omeletesSelecionados.length = 0;
+        bebidasSelecionadas.length = 0;
+        // Atualiza a lista na tela
+        atualizarLista("lanchesSelecionados", lanchesSelecionados);
+        atualizarLista("porcoesSelecionadas", porcoesSelecionadas);
+        atualizarLista("panquecasSelecionadas", panquecasSelecionadas);
+        atualizarLista("omeletesSelecionados", omeletesSelecionados);
+        atualizarLista("bebidasSelecionadas", bebidasSelecionadas);
+    }
+</script>
+
+
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+ 
+</body>
+
+        <!-- Rodapé -->
+        <footer>
+        <div class="container">
+            <p>&copy; 3° M-Tec informática da ETEC Arnaldo Pereira Cheregatti 2024</p>
+            <p>Desenvolvedores: Ariadyne Rodrigues Doval, Maria Eduarda da Silva Martins, Mariana da Silva Naves, Gabriel Felipe Vital da Silva</p>
+            <p>Entre em contato: <a href="http://www.etecaguai.com.br/">http://www.etecaguai.com.br/</a></p>
+            <p>
+           
+        </div>
+        </footer>
+
+        
+</html>
